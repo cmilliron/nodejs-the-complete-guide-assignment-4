@@ -6,7 +6,8 @@ router.get('/', (req, res, next) => {
     console.log("In add-user middleware")
     res.render('add-users', {
         pageTitle: "Add Users",
-        
+        path: '/'
+
     })
 })
 

@@ -13,7 +13,8 @@ router.get('/users',  (req, res, next) => {
     console.log("In users middleware");
     res.render('users', {
         pageTitle: "Users",
-        users: users
+        users: users,
+        path: '/users'
     });
 });
 
